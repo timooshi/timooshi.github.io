@@ -1,3 +1,20 @@
+body {
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(4,31,46,1) 52%, rgba(15,64,74,1) 100%);
+}
+
 h1 {
-color: red;
+  font-size: 20px;
+  background: -webkit-linear-gradient(90deg, rgba(214,177,177,1) 0%, rgba(199,198,172,1) 52%, rgba(15,64,74,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #c7c6ac;
+  font-family: "Montserrat", Times, serif;
+position: absolute;
+    width: 210px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
 }
